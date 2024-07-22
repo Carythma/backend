@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework import routers
-from  .views import EcgViewset  #, broadcast_sms 
+from  .views import EcgViewset  , TestAPIView 
 #, ClientViewset  #, UserViewset , UserLogout
 from django.contrib import admin
 
