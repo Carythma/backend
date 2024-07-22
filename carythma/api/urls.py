@@ -21,6 +21,7 @@ urlpatterns = [
     #path('api/', include(routerauth.urls)),
     #path('apicarythma/appmobile/', EcgViewset.as_view({'post': 'list'}), name='user-login'), #{'post': 'login_user'}
     path('apicarythma/', include(router.urls)),
+     path('test/', TestAPIView.as_view(), name='test-api'),
     #path(r'broadcast', broadcast_sms, name="default"),
     #path('api-auth/login', include('rest_framework.urls'))
 #path('login', views.UserLogin.as_view(), name='login'),
